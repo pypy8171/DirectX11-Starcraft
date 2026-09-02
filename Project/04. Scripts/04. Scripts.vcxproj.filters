@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{13b36c47-b8d6-4ed0-a7a9-bec78ac65b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Mouse">
+      <UniqueIdentifier>{87aced0d-20c1-4b11-8ccc-96618b9970d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Starcraft">
+      <UniqueIdentifier>{656b2677-aa50-4fe7-91cd-dff8864a5573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Starcraft\ObjScript">
+      <UniqueIdentifier>{66de8715-60fd-44e6-95e6-3af5d6c173f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Starcraft\ObjScript\Unit">
+      <UniqueIdentifier>{0506398f-e5a8-48b0-8877-6354aaa7b99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Starcraft\ObjScript\UnitEffect">
+      <UniqueIdentifier>{1e9e1dc3-fdc9-4228-a0e8-ca3ca4021c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Starcraft\ObjScript\ButtonUI">
+      <UniqueIdentifier>{aefee2db-4378-4800-84f5-938680172ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Starcraft\ObjScript\Tile">
+      <UniqueIdentifier>{1b7d17a7-7beb-4127-90d8-d8616eafa6c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Starcraft\Resource">
+      <UniqueIdentifier>{38050e2e-87ae-40dc-956b-90c4d563e870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Starcraft\Temp">
+      <UniqueIdentifier>{eba1ffbd-7e16-4335-a823-bb0bd9ce55e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Starcraft\UIScript">
+      <UniqueIdentifier>{d6f3774a-e0cc-41dd-8cc3-f642a090ceba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Starcraft\Manager">
+      <UniqueIdentifier>{de7b4ab2-747b-462d-a198-201bbb7f8254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Planet">
+      <UniqueIdentifier>{8b8e212e-8d96-44d8-be2b-dea7a22ec4b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="BulletScript.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraScript.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtossUIScript.h">
+      <Filter>Scripts\Starcraft\UIScript</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusScript.h">
+      <Filter>Scripts\Starcraft\UIScript</Filter>
+    </ClInclude>
+    <ClInclude Include="WireFrameScript.h">
+      <Filter>Scripts\Starcraft\UIScript</Filter>
+    </ClInclude>
+    <ClInclude Include="PortraitScript.h">
+      <Filter>Scripts\Starcraft\UIScript</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingScript.h">
+      <Filter>Scripts\Starcraft\ObjScript</Filter>
+    </ClInclude>
+    <ClInclude Include="MarkScript.h">
+      <Filter>Scripts\Starcraft\ObjScript</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerScript.h">
+      <Filter>Scripts\Starcraft\ObjScript</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterScript.h">
+      <Filter>Scripts\Starcraft\ObjScript</Filter>
+    </ClInclude>
+    <ClInclude Include="MuzzleScript.h">
+      <Filter>Scripts\Starcraft\ObjScript</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceScript.h">
+      <Filter>Scripts\Starcraft\ObjScript</Filter>
+    </ClInclude>
+    <ClInclude Include="MineralScript.h">
+      <Filter>Scripts\Starcraft\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="GasScript.h">
+      <Filter>Scripts\Starcraft\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="NexusScript.h">
+      <Filter>Scripts\Starcraft\ObjScript</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitScript.h">
+      <Filter>Scripts\Starcraft\ObjScript\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="ProbeScript.h">
+      <Filter>Scripts\Starcraft\ObjScript\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptMgr.h" />
+    <ClInclude Include="SingleTonScript.h">
+      <Filter>Scripts\Starcraft\ObjScript</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitMgr.h">
+      <Filter>Scripts\Starcraft\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMgr.h">
+      <Filter>Scripts\Starcraft\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingMgr.h">
+      <Filter>Scripts\Starcraft\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradeMgr.h">
+      <Filter>Scripts\Starcraft\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SeclectScript.h">
+      <Filter>Scripts\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseScript.h">
+      <Filter>Scripts\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="IconScript.h">
+      <Filter>Scripts\Starcraft\UIScript</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitShadScript.h">
+      <Filter>Scripts\Starcraft\ObjScript\UnitEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitEffectScript.h">
+      <Filter>Scripts\Starcraft\ObjScript\UnitEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="ArchonEffectScript.h">
+      <Filter>Scripts\Starcraft\ObjScript\UnitEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonScript.h">
+      <Filter>Scripts\Starcraft\ObjScript\ButtonUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMgr.h">
+      <Filter>Scripts\Starcraft\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TileScript.h">
+      <Filter>Scripts\Starcraft\ObjScript\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="ProduceScript.h">
+      <Filter>Scripts\Starcraft\UIScript</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillMgr.h">
+      <Filter>Scripts\Starcraft\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillScript.h">
+      <Filter>Scripts\Starcraft\ObjScript\UnitEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberMgr.h">
+      <Filter>Scripts\Starcraft\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberScript.h">
+      <Filter>Scripts\Starcraft\UIScript</Filter>
+    </ClInclude>
+    <ClInclude Include="ArbiterScript.h">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="ArchonScript.h">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="CarrierScript.h">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="CorsairScript.h">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkArchonScript.h">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkTemplarScript.h">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="DragoonScript.h">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="HighTemplarScript.h">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="InterceptorScript.h">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="ObserverScript.h">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="ReaverScript.h">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoutScript.h">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="ShuttleScript.h">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="ZealotScript.h">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadSciprtMgr.h">
+      <Filter>Scripts\Starcraft\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanetScript.h">
+      <Filter>Scripts\Planet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="BulletScript.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraScript.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtossUIScript.cpp">
+      <Filter>Scripts\Starcraft\UIScript</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusScript.cpp">
+      <Filter>Scripts\Starcraft\UIScript</Filter>
+    </ClCompile>
+    <ClCompile Include="WireFrameScript.cpp">
+      <Filter>Scripts\Starcraft\UIScript</Filter>
+    </ClCompile>
+    <ClCompile Include="PortraitScript.cpp">
+      <Filter>Scripts\Starcraft\UIScript</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingScript.cpp">
+      <Filter>Scripts\Starcraft\ObjScript</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkScript.cpp">
+      <Filter>Scripts\Starcraft\ObjScript</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerScript.cpp">
+      <Filter>Scripts\Starcraft\ObjScript</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterScript.cpp">
+      <Filter>Scripts\Starcraft\ObjScript</Filter>
+    </ClCompile>
+    <ClCompile Include="MuzzleScript.cpp">
+      <Filter>Scripts\Starcraft\ObjScript</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceScript.cpp">
+      <Filter>Scripts\Starcraft\ObjScript</Filter>
+    </ClCompile>
+    <ClCompile Include="MineralScript.cpp">
+      <Filter>Scripts\Starcraft\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="GasScript.cpp">
+      <Filter>Scripts\Starcraft\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="NexusScript.cpp">
+      <Filter>Scripts\Starcraft\ObjScript</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitScript.cpp">
+      <Filter>Scripts\Starcraft\ObjScript\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="ProbeScript.cpp">
+      <Filter>Scripts\Starcraft\ObjScript\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptMgr.cpp" />
+    <ClCompile Include="UnitMgr.cpp">
+      <Filter>Scripts\Starcraft\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMgr.cpp">
+      <Filter>Scripts\Starcraft\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingMgr.cpp">
+      <Filter>Scripts\Starcraft\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="UpgradeMgr.cpp">
+      <Filter>Scripts\Starcraft\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SeclectScript.cpp">
+      <Filter>Scripts\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseScript.cpp">
+      <Filter>Scripts\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="IconScript.cpp">
+      <Filter>Scripts\Starcraft\UIScript</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitShadScript.cpp">
+      <Filter>Scripts\Starcraft\ObjScript\UnitEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitEffectScript.cpp">
+      <Filter>Scripts\Starcraft\ObjScript\UnitEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="ArchonEffectScript.cpp">
+      <Filter>Scripts\Starcraft\ObjScript\UnitEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonScript.cpp">
+      <Filter>Scripts\Starcraft\ObjScript\ButtonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMgr.cpp">
+      <Filter>Scripts\Starcraft\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TileScript.cpp">
+      <Filter>Scripts\Starcraft\ObjScript\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="ProduceScript.cpp">
+      <Filter>Scripts\Starcraft\UIScript</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillMgr.cpp">
+      <Filter>Scripts\Starcraft\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillScript.cpp">
+      <Filter>Scripts\Starcraft\ObjScript\UnitEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberMgr.cpp">
+      <Filter>Scripts\Starcraft\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberScript.cpp">
+      <Filter>Scripts\Starcraft\UIScript</Filter>
+    </ClCompile>
+    <ClCompile Include="ArbiterScript.cpp">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="ArchonScript.cpp">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="CarrierScript.cpp">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="CorsairScript.cpp">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkArchonScript.cpp">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkTemplarScript.cpp">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="DragoonScript.cpp">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="HighTemplarScript.cpp">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="InterceptorScript.cpp">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="ObserverScript.cpp">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="ReaverScript.cpp">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoutScript.cpp">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="ShuttleScript.cpp">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="ZealotScript.cpp">
+      <Filter>Scripts\Starcraft\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadSciprtMgr.cpp">
+      <Filter>Scripts\Starcraft\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanetScript.cpp">
+      <Filter>Scripts\Planet</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

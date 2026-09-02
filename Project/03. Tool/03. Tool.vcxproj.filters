@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. App">
+      <UniqueIdentifier>{9dcc15cb-6ecf-4919-9d99-6f5387236f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. MainFrame">
+      <UniqueIdentifier>{621b410c-8ea4-46d1-bdb6-0703a0b73f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View">
+      <UniqueIdentifier>{55b978ca-fceb-42de-878d-7eceb5d0c071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Dialog">
+      <UniqueIdentifier>{f58b929b-b3e3-4712-8454-dc1c9b87de41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Module">
+      <UniqueIdentifier>{7ab113b6-e136-43dd-9b28-fe1f4f42d718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Module\ListDlg">
+      <UniqueIdentifier>{f11b4939-8b81-437a-8fe4-7e99d617c2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Module\Splitter">
+      <UniqueIdentifier>{3c41e37b-fdc2-43f7-bc96-930938103e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Dialog\ComDlg">
+      <UniqueIdentifier>{766298c8-ecf0-496f-9479-2366ed38cef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Dialog\TreeDlg">
+      <UniqueIdentifier>{3c8d0077-fa8a-46ac-9a92-a45ea05a89ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Manager">
+      <UniqueIdentifier>{6111cf12-97cc-4575-8b8f-df233ea64df2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tool.h">
+      <Filter>01. App</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>02. MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="GameView.h">
+      <Filter>03. View</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentView.h">
+      <Filter>03. View</Filter>
+    </ClInclude>
+    <ClInclude Include="HierachyView.h">
+      <Filter>03. View</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnView.h">
+      <Filter>03. View</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgView.h">
+      <Filter>03. View</Filter>
+    </ClInclude>
+    <ClInclude Include="ListDlg.h">
+      <Filter>05. Module\ListDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="MySplitterWnd.h">
+      <Filter>05. Module\Splitter</Filter>
+    </ClInclude>
+    <ClInclude Include="ResDlg.h">
+      <Filter>04. Dialog\TreeDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="HierachyDlg.h">
+      <Filter>04. Dialog\TreeDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator2DDlg.h">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraDlg.h">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderDlg.h">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentDlg.h">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderDlg.h">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformDlg.h">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSceneMaker.h">
+      <Filter>06. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptDlg.h">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveLoadMgr.h">
+      <Filter>06. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeDlg.h">
+      <Filter>04. Dialog\TreeDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="GridDlg.h">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerDlg.h">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tool.cpp">
+      <Filter>01. App</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>02. MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="GameView.cpp">
+      <Filter>03. View</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentView.cpp">
+      <Filter>03. View</Filter>
+    </ClCompile>
+    <ClCompile Include="HierachyView.cpp">
+      <Filter>03. View</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnView.cpp">
+      <Filter>03. View</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgView.cpp">
+      <Filter>03. View</Filter>
+    </ClCompile>
+    <ClCompile Include="ListDlg.cpp">
+      <Filter>05. Module\ListDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="MySplitterWnd.cpp">
+      <Filter>05. Module\Splitter</Filter>
+    </ClCompile>
+    <ClCompile Include="ResDlg.cpp">
+      <Filter>04. Dialog\TreeDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="HierachyDlg.cpp">
+      <Filter>04. Dialog\TreeDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator2DDlg.cpp">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraDlg.cpp">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderDlg.cpp">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentDlg.cpp">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderDlg.cpp">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformDlg.cpp">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSceneMaker.cpp">
+      <Filter>06. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptDlg.cpp">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveLoadMgr.cpp">
+      <Filter>06. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeDlg.cpp">
+      <Filter>04. Dialog\TreeDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GridDlg.cpp">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerDlg.cpp">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="My03Tool.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My03Tool.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\idd_mesh.bin">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\03. Tool.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+xcopy /s /y /d ".\Project\04. Scripts\*.h" ".\Project\Include\Scripts" /exclude:.\exclude.txt

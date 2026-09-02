@@ -1,0 +1,79 @@
+# ─────────────────────────────
+#  Visual Studio 캐시 / 사용자 설정
+# ─────────────────────────────
+.vs/
+.claude/
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.aps
+*.VC.db
+*.VC.opendb
+*.VC.VC.opendb
+ipch/
+
+# ─────────────────────────────
+#  빌드 중간 산출물
+# ─────────────────────────────
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+Win32/
+*.obj
+*.pch
+*.ipch
+*.pdb
+*.idb
+*.ilk
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.log
+*.res
+*.tli
+*.tlh
+*.bsc
+*.sbr
+*.exp
+*.map
+RCa*
+
+# ─────────────────────────────
+#  링크 결과물 (엔진/스크립트 정적 라이브러리, 실행 파일)
+# ─────────────────────────────
+*.lib
+*.dll
+*.exe
+Project/Library/
+Game_Debug/bin/
+Game_Release/bin/
+
+# ─────────────────────────────
+#  배치 파일이 생성하는 복사본
+#  EngineCopy.bat / ScriptCopy.bat 실행 시 재생성됨
+# ─────────────────────────────
+Project/Include/YongEngine/
+Project/Include/Scripts/
+
+# ─────────────────────────────
+#  게임 리소스 (원본 저작권 문제로 미포함)
+#  Texture / Sound / Resource 는 별도 배포
+# ─────────────────────────────
+Game_Release/content/Texture/
+Game_Release/content/Sound/
+Game_Release/content/Resource/
+Game_Release/content/Mesh/
+
+# ─────────────────────────────
+#  기타
+# ─────────────────────────────
+.DS_Store
+Thumbs.db
+*.zip
+
+# 개인 메모 파일
+배치파일이란.txt
+Copy.txt(배치 파일용).txt
